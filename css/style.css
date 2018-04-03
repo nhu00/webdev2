@@ -1,0 +1,66 @@
+/* CSS file for navbar, header and footer. Got some of the codes from w3schools and the example assignments given */
+
+header {
+	font-family: Arial;
+	font-size: 25px;
+}
+
+nav {
+	font-family: Arial;
+	font-size: 19px;
+	width: 511px;
+	border: 2px solid black;
+	margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightcoral;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: indianred;
+	color: black;
+}
+
+header {
+	text-align: center;
+}
+
+footer {
+	font-family: Arial;
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	text-align: center;
+	width: 1450px;
+	margin: auto;
+	font-size: 19px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border: 1px solid black;
+}
+
+#grad {
+  background: linear-gradient(90deg, lightpink, lightcoral, indianred);
+}
+
+hr {
+	border: 1px solid gray;
+}

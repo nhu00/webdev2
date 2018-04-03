@@ -1,0 +1,52 @@
+/* CSS file for the home and about page, fluid. Got some of the codes from w3schools and the example assignments given */
+
+.container {
+	width: 100%;
+	height: 550%;
+}
+
+body {
+	font-family: Arial;
+	background-color: floralwhite;
+	font-size: 119%;
+}
+
+.column {
+	 float: left;
+    width: 30.5%;
+    padding: 10px;
+	margin: 5.4px;
+    height: 900px;
+	background-color: mistyrose;
+}
+
+.mediacolumn {
+	 float: left;
+    width: 46%;
+    padding: 16px;
+	margin: 5px;
+    height: 940px;
+	background-color: mistyrose;
+}
+
+#center {
+	text-align: center;
+}
+
+img {
+	border: 1px solid gray;
+	width: 100%;
+}
+
+.img {
+	width: 40%;
+}
+
+.p {
+	text-align: center;
+}
+
+.text {
+	font-size: 135%;
+	text-decoration: underline;
+}

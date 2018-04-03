@@ -1,0 +1,62 @@
+/* CSS file for the home and about page, fixed. Got some of the codes from w3schools and the example assignments given */
+
+.container {
+	width: 1390px;
+	height: 540px;
+}
+
+body {
+	font-family: Arial;
+	background-color: floralwhite;
+	font-size: 19px;
+}
+
+img {
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.pages {
+	float: left;
+	margin: 15px;
+	clear: right;
+}
+
+p {
+	text-align: center;
+	position: relative;
+	top: -20px;
+	font-size: 20px;
+}
+
+figure {
+	float: left;
+	margin-left: 250px;
+}
+
+aside {
+	background-color: lightpink;
+	width: 600px;
+	height: 153px;
+	border: 1px solid black;
+	margin-left: 50px;
+	padding: 20px;
+	float: left;
+	text-align: justify;
+	position: relative;
+}
+
+#a {
+	padding: 5px;
+	text-align: center;
+}
+#a a {
+	text-decoration: none;
+	color: black;
+	padding: 13px;
+}
+
+#a a:hover {
+	background-color: indianred;
+	color: white;
+}
